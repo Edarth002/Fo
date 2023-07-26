@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women catalogue</title>
+    <link rel="stylesheet" href="forby.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="head">
+            <div class="logo">
+                <img src="logo222.jpg" alt="Forby Styles">
+            </div>
+            <div class="nav" id="navlinks">
+                <button class="bt" onclick="hideMenu()">X</button>
+                <ul>
+                    <span class="home"></span>
+                    <li><a href="file:///C:/Users/user/Documents/Forby%20Styles/Codes/Forby.html">Home</a></li></span>
+                    <li><a href="file:///C:/Users/user/Documents/Forby%20Styles/Codes/Forbymen.html">Men</a></li>
+
+                    <li><a href="file:///C:/Users/user/Documents/Forby%20Styles/Codes/forbywomen.html">Women</a></li>
+                </ul>
+            </div>
+            <button class="bt" onclick="showMenu()"><img src="menu.jpg" alt=""></button>
+        </div>
+
+        <div class="catalogue" id="gallery">
+            <div class="one">
+                <img src="cat1.jpg" alt="" onclick="toggleHighlight(this)">
+                <p>$14.20</p>
+            </div>
+            <div class="four">
+                <img src="Cat4.jpg" alt="" onclick="toggleHighlight(this)">
+                <p>$17.20</p>
+            </div>
+            <div class="seven">
+                <img src="Cat7.jpg" alt="" onclick="toggleHighlight(this)">
+                <p>$15.40</p>
+            </div>
+            <div class="eight">
+                <img src="Cat8.jpg" alt="" onclick="toggleHighlight(this)">
+                <p>$20.00</p>
+            </div>
+            <div class="eleven">
+                <img src="cat11.jpg" alt="" onclick="toggleHighlight(this)">
+                <p>$20.80</p>
+            </div>
+        </div>
+
+        <button id="sendButton" onclick="sendEmail()" class="btn">Send Selected Images</button>
+
+        <div class=" onlyicons">
+            <a href="#">
+                <img src="facebook icon.png" alt="facebook">
+            </a>
+            <a href="#">
+                <img src="twitter.png" alt="twitter">
+            </a>
+            <a href="#">
+                <img src="instagram.png" alt="instagram" style="background-color: #ffff;">
+            </a>
+            <a href="#">
+                <img src="whatsapp icon.gif" alt="whatsapp-icon">
+            </a>
+        </div>
+
+        <footer>
+            <p>© ForbyStyles. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="forbystyles.js"></script>
+</body>
+
+</html>
