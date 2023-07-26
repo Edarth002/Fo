@@ -1,6 +1,8 @@
 * {
     padding: 0%;
     margin: 0%;
+    font-family: sans-serif;
+    margin-right: none;
 }
 
 .img {
@@ -72,7 +74,9 @@ body {
     transition: 0.25s;
 }
 
-
+.mobilelink {
+    display: none;
+}
 
 
 
@@ -269,20 +273,16 @@ body {
     display: none;
 }
 
-.onlyicons {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1;
-    margin-top: 200px;
-    width: 40%;
-    margin-left: 30%;
-}
 
 footer {
     text-align: center;
     margin-top: 30px;
+}
+
+.mobile,
+.onlyicons {
+    display: none;
 }
 
 
@@ -322,6 +322,12 @@ footer {
 
     .nav ul {
         padding: 2rem;
+
+    }
+
+    .mobilelink {
+        display: block;
+        flex-direction: column;
     }
 
     .bt {
@@ -345,7 +351,11 @@ footer {
     }
 
     .bod p {
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .bod {
+        font-size: 25px;
     }
 
     .bod section {
@@ -455,21 +465,8 @@ footer {
         margin-top: 10px;
     }
 
-    .end a {
-        position: relative;
-        font-family: cursive;
-        font-style: oblique;
-        font-weight: bolder;
-        font-size: 20px;
-        margin-bottom: 100px;
-        text-decoration: none;
-        align-content: left;
-
-    }
-
-    .end a {
-        color: black;
-        text-align: right;
+    .section {
+        display: none;
     }
 
     .catalogu {
@@ -490,8 +487,43 @@ footer {
     }
 
     .onlyicons img {
-        width: 30px;
+        width: 60%;
         height: auto;
+    }
+
+    .onlyicons {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1;
+        margin-top: 200px;
+        width: 60%;
+        margin-left: 25%;
+    }
+
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile {
+        text-align: center;
+        bottom: 20%;
+
+    }
+
+    .mobile section p {
+        flex-direction: column;
+        line-break: auto;
+    }
+
+    .mobile section h2 {
+        text-decoration: underline;
+    }
+
+    section {
+        font-size: 20px;
     }
 
 
